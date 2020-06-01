@@ -12,24 +12,9 @@
     </script>
 </head>
 
-<body 
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
-}
-
-style='margin: 0; overflow: hidden;'>
+<body style='margin: 0; overflow: hidden;'>
     <a-scene
-    <a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: position.coords.longitude; latitude: position.coords.latitude;" animation-mixer/>
+    <a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude:40.625416; latitude:22.436513;" animation-mixer/>
     
     
     
