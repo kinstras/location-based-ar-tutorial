@@ -1,2 +1,1 @@
-# location-based-ar-tutorial
-My first Augmented-Reality repository on GitHub
+A captivating AR experience, a Location Based Game similar to the popular Pokemon GO that will convert users to valuable In Situ data collectors. Hopefully large amount of single beam bathymetric soundings will be crowdsourced everyday providing our workflows with highly accurate ground truthing measurements. The measurements will be used mainly for calibrating the SDB models and for validating the final products.
